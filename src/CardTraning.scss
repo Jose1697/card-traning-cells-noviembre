@@ -1,0 +1,33 @@
+@import "node_modules/@bbva-web-components/bbva-foundations-sass/main";
+
+:host {
+  display: block;
+  box-sizing: border-box;
+}
+
+:host([hidden]), [hidden] {
+  display: none !important;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.seguro{
+  padding: 10px;
+  padding-left: 20px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+
+.list{
+  margin-bottom: 15px;
+}
+
+.button{
+  margin-top: 23px;
+}
+
+bbva-core-icon{
+  color:rgb(25, 115, 184); 
+}

@@ -1,0 +1,1 @@
+export { CardTraning } from './src/CardTraning.js';
